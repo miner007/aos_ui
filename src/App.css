@@ -1,0 +1,108 @@
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.container {
+  text-align: center;
+  padding: 40px; /* Increased padding */
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0; /* Light border for depth */
+  border-radius: 8px; /* Softer radius */
+  max-width: 800px; /* Wider container for better layout */
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Softer shadow */
+}
+
+.header {
+  background-color: #0056b3; /* Use primary brand color */
+  color: #ffffff; /* White text */
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the navigation */
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar li a:hover {
+  background-color: #004494; /* Darker shade for hover effect */
+}
+
+.wallet-section, .process-section, .disconnect-section, .terminal-section {
+  margin-bottom: 20px;
+}
+
+.connect-button, .process-button, .disconnect-button {
+  background-color: #007bff; /* Primary button color */
+  border: 1px solid #0056b3; /* Slightly darker border for depth */
+  padding: 15px 30px; /* Larger button for better interaction */
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.connect-button:hover, .process-button:hover, .disconnect-button:hover {
+  background-color: #0056b3;
+}
+
+.links-section {
+  margin-top: 20px;
+}
+
+.links-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links-section li {
+  margin: 10px 0;
+}
+
+.links-section a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.links-section a:hover {
+  color: #0056b3;
+}
+
+.terminal-container {
+  display: none;
+  margin-top: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
